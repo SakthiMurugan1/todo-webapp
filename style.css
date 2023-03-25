@@ -1,0 +1,13 @@
+
+
+html, body {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.input-form {
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+}
