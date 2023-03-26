@@ -1,13 +1,55 @@
-
-
-html, body {
+body {
+    font: 1em sans-serif;
+    height: initial;
+    width: 50%;
     margin: 0 auto;
-    text-align: center;
-    border: 1px solid black;
+    border: 1px solid;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
 
-.input-form {
-    margin: auto;
+header {
+    color: rebeccapurple;
     width: 50%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+input[id="new-task-input"] {
+    width: 100%;
+    height: 2em;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+ul {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
     border: 1px solid black;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
 }

@@ -8,23 +8,31 @@
     </head>
 
     <body>
+
         <header>
-            <div>
                 <h1>Yet Another TODO App</h1>
-            </div>
         </header>
 
-        <div>
-            <form class="input-form">
-                <input type="text" id="new-task-text"/>
-                <input type="button" id="add-task-button" value="Add"/>
-            </form>
-        </div>
+        <main>
+
+            <div>
+                <form class="input-form">
+                    <input type="text" id="new-task-input"/>
+                    <input type="submit" id="add-task-button" value="Submit"/>
+                </form>
+
+                <ul id="task-list">
+                    <li>Task</li>
+                    <li>Task 2</li>
+                </ul>
+            </div>
+
+        </main>
         
-        <div>
-            <ul id="task-list"></ul>
-                <li id="list-item">Task</li>
-        </div>
+
+        <footer>
+            <p>FOCUS</p>
+        </footer>
         
     </body>
 </html>
